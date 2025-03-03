@@ -15,27 +15,27 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@solana/web3.js": "^1.91.1", // For Solana blockchain interactions
-    "crypto": "^1.0.1", // Built-in Node.js module for cryptography (included by default)
-    "dotenv": "^16.4.5", // Environment variable management
-    "winston": "^3.13.0" // Logging utility for agent and DID operations
+    "@solana/web3.js": "^1.91.1",
+    "commander": "^12.0.0", // For CLI
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "ipfs-http-client": "^60.0.1", // For off-chain storage
+    "snarkjs": "^0.7.4", // For ZKP
+    "winston": "^3.13.0"
   },
   "devDependencies": {
-    "@types/jest": "^29.5.12", // Jest types for TypeScript
-    "@types/node": "^20.11.19", // Node.js types
-    "@types/winston": "^2.4.4", // Winston types
-    "@typescript-eslint/eslint-plugin": "^7.0.2", // ESLint for TypeScript
-    "@typescript-eslint/parser": "^7.0.2", // Parser for ESLint
-    "eslint": "^8.56.0", // Linting
-    "jest": "^29.7.0", // Testing framework
-    "nodemon": "^3.1.0", // Live reloading for development
-    "prettier": "^3.2.5", // Code formatting
-    "ts-jest": "^29.1.2", // Jest support for TypeScript
-    "ts-node": "^10.9.2", // Run TypeScript directly
-    "typescript": "^5.3.3" // TypeScript compiler
-  },
-  "optionalDependencies": {
-    "snarkjs": "^0.7.4" // Optional: For ZKP implementation (requires further setup)
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.19",
+    "@types/winston": "^2.4.4",
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
+    "eslint": "^8.56.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
   },
   "license": "MIT",
   "repository": {
